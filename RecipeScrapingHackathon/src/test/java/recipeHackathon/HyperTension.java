@@ -1,3 +1,5 @@
+package recipeHackathon;
+
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -62,6 +64,9 @@ public class HyperTension {
 		for (String eachrecipe : allRecipeNames) {
 			System.out.println(eachrecipe);
 
+		}
+		for ( int i = 0; i < 10; i++ ) {
+			System.out.println(i);
 		}
 	}
 
