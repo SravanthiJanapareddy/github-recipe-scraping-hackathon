@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-19T16:02:22 CDT" name="Default suite" finished-at="2023-04-19T16:02:41 CDT" duration-ms="19624">
+  <suite started-at="2023-04-22T11:55:06 CDT" name="Default suite" finished-at="2023-04-22T11:56:01 CDT" duration-ms="55047">
     <groups>
     </groups>
-    <test started-at="2023-04-19T16:02:22 CDT" name="Default test" finished-at="2023-04-19T16:02:41 CDT" duration-ms="19624">
-      <class name="recipeHackathon.scrapingDiabetes">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:recipeHackathon.scrapingDiabetes@9225652]" started-at="2023-04-19T16:02:22 CDT" name="beforeTest" finished-at="2023-04-19T16:02:33 CDT" duration-ms="10842" status="PASS">
+    <test started-at="2023-04-22T11:55:06 CDT" name="Default test" finished-at="2023-04-22T11:56:01 CDT" duration-ms="55047">
+      <class name="recipeHackathon.HyperTension">
+        <test-method is-config="true" signature="setup()[pri:0, instance:recipeHackathon.HyperTension@1139b2f3]" started-at="2023-04-22T11:55:06 CDT" name="setup" finished-at="2023-04-22T11:55:18 CDT" duration-ms="11620" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="searchRecipe()[pri:0, instance:recipeHackathon.scrapingDiabetes@9225652]" started-at="2023-04-19T16:02:33 CDT" name="searchRecipe" finished-at="2023-04-19T16:02:41 CDT" duration-ms="8730" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="getRecipeID()[pri:0, instance:recipeHackathon.HyperTension@1139b2f3]" started-at="2023-04-22T11:55:18 CDT" name="getRecipeID" finished-at="2023-04-22T11:56:01 CDT" duration-ms="43371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchRecipe -->
-      </class> <!-- recipeHackathon.scrapingDiabetes -->
+        </test-method> <!-- getRecipeID -->
+      </class> <!-- recipeHackathon.HyperTension -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
